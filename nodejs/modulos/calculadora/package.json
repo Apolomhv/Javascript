@@ -1,7 +1,7 @@
 {
-  "name": "fs",
+  "name": "calculadora",
   "version": "1.0.0",
-  "description": "Exemplo do uso do módulo nativo fs do Node.js",
+  "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
