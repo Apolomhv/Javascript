@@ -1,8 +1,8 @@
 //const funcoesMatematicas = require('./funcoes_matematicas.js');
 //const calculadoraIdade = require('./calculadora_idade.js');
 
-import {somar, subtrair, dividir, multiplicar} from './funcoes_matematicas.js';
-import * as calculadoraIdade from './calculadora_idade.js';
+import {somar, subtrair, dividir, multiplicar} from './modulos/funcoes_matematicas.js';
+import * as calculadoraIdade from './modulos/calculadora_idade.js';
 
 // Exemplo de uso:
 //const resultadoSoma = funcoesMatematicas.somar(5, 3);
