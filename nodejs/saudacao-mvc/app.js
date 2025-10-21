@@ -21,6 +21,10 @@ app.use('/usuarios', usuariosRouts);
 const produtosRouts = require('./routes/produtos');
 app.use('/produtos', produtosRouts);
 
+//Criar uma nova rota
+//Clientes
+const clientesRouts = require('./routes/clientes');
+app.use('/clientes', clientesRouts);
 
 // Servidor
 app.listen(port, () => {
