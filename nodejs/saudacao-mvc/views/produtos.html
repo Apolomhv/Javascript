@@ -6,6 +6,21 @@
     <title>Página dos Produtos</title>
 </head>
 <body>
-    <h1>Você está na página produtos.</h1>
+    <h1>Você está na página produtos.</h1><br>
+
+    <h1>Cadastrar Produto;</h1>
+    
+    <form action="/cadastroProd" method="POST">
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" required><br>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="text" id="quantidade" name="quantidade" required><br>
+
+        <label for="valor">Valor:</label>
+        <input type="text" id="valor" name="valor" required><br>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>

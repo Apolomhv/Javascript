@@ -5,7 +5,7 @@ module.exports = {
         res.sendFile('usuarios.html', { root: './views' });
     },
 
-    formulario: (req, res) => {
+    formLogin: (req, res) => {
         res.sendFile('formLogin.html', { root: './views' });
     },
 
